@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#bbdefb">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#42a5f5"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:drawableStart="@drawable/ic_profile_default"
+        android:drawablePadding="5dp"/>
+
+    <EditText
+        android:id="@+id/etEmailAddressRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_address"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#42a5f5"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="5dp"/>
+
+    <EditText
+        android:id="@+id/etMobileNumberRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mobile_number_10digit"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#42a5f5"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:drawableStart="@drawable/ic_phone"
+        android:drawablePadding="5dp"/>
+
+    <EditText
+        android:id="@+id/etDeliveryAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/delivery_address"
+        android:drawableStart="@drawable/ic_address"
+        android:drawablePadding="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#42a5f5"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:padding="8dp"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/etPasswordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:drawableStart="@drawable/ic_password"
+        android:drawablePadding="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#42a5f5"
+        android:inputType="textPassword"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:padding="8dp"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/etConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/confirm_password"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#42a5f5"
+        android:textColorHint="#ffffff"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:drawableStart="@drawable/ic_password"
+        android:drawablePadding="5dp"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/register"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

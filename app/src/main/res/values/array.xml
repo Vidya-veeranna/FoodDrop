@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="filters">
+        <item>Cost(Low to High)</item>
+        <item>Cost(High to Low)</item>
+        <item>Rating</item>
+    </array>
+
+</resources>

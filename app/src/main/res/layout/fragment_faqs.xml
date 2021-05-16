@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".fragment.FAQsFragment">
+
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtQuestion1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q1_how_will_the_training_be_delivered"
+                    android:textColor="@color/colorPrimary"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"/>
+
+                <TextView
+                    android:id="@+id/txtAnswer1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtQuestion1"
+                    android:text="@string/a1_you_will_be_taught_using_pre_recorded_videos_and_text_tutorials_the_training_has_quizzes_assighnment_and_tests_to_help_you_learn_better"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"/>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#444"
+                    android:layout_below="@id/txtAnswer1"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtQuestion2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q1_how_will_the_training_be_delivered"
+                    android:textColor="@color/colorPrimary"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"/>
+
+                <TextView
+                    android:id="@+id/txtAnswer2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtQuestion2"
+                    android:text="@string/a1_you_will_be_taught_using_pre_recorded_videos_and_text_tutorials_the_training_has_quizzes_assighnment_and_tests_to_help_you_learn_better"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"/>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#444"
+                    android:layout_below="@id/txtAnswer2"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtQuestion3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q1_how_will_the_training_be_delivered"
+                    android:textColor="@color/colorPrimary"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"/>
+
+                <TextView
+                    android:id="@+id/txtAnswer3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtQuestion3"
+                    android:text="@string/a1_you_will_be_taught_using_pre_recorded_videos_and_text_tutorials_the_training_has_quizzes_assighnment_and_tests_to_help_you_learn_better"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"/>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#444"
+                    android:layout_below="@id/txtAnswer3"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtQuestion4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q1_how_will_the_training_be_delivered"
+                    android:textColor="@color/colorPrimary"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"/>
+
+                <TextView
+                    android:id="@+id/txtAnswer4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtQuestion4"
+                    android:text="@string/a1_you_will_be_taught_using_pre_recorded_videos_and_text_tutorials_the_training_has_quizzes_assighnment_and_tests_to_help_you_learn_better"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"/>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#444"
+                    android:layout_below="@id/txtAnswer4"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtQuestion5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q1_how_will_the_training_be_delivered"
+                    android:textColor="@color/colorPrimary"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"/>
+
+                <TextView
+                    android:id="@+id/txtAnswer5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtQuestion5"
+                    android:text="@string/a1_you_will_be_taught_using_pre_recorded_videos_and_text_tutorials_the_training_has_quizzes_assighnment_and_tests_to_help_you_learn_better"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"/>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#444"
+                    android:layout_below="@id/txtAnswer5"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txtQuestion6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q1_how_will_the_training_be_delivered"
+                    android:textColor="@color/colorPrimary"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"/>
+
+                <TextView
+                    android:id="@+id/txtAnswer6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtQuestion6"
+                    android:text="@string/a1_you_will_be_taught_using_pre_recorded_videos_and_text_tutorials_the_training_has_quizzes_assighnment_and_tests_to_help_you_learn_better"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"/>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#444"
+                    android:layout_below="@id/txtAnswer6"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+</ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">FoodDrop</string>
+    <string name="home">Home</string>
+    <string name="my_profile">My Profile</string>
+    <string name="favourite_restaurant">Favourite Restaurant</string>
+    <string name="order_history">Order History</string>
+    <string name="log_out">Log Out</string>
+    <string name="faqs">FAQs</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="preference_name">FoodDrop Preferences</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="choose_from_menu_listed_below">Choose from menu listed below:</string>
+    <string name="enter_your_registered_mobile_number_and_email_address">Enter your registered Mobile Number and Email Address</string>
+    <string name="mobile_number_10digit">Mobile Number (10digit)</string>
+    <string name="email_address">Email Address</string>
+    <string name="confirm">Confirm</string>
+    <string name="password">Password(Min 4 characters)</string>
+    <string name="log_in">LOG IN</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="new_user_register">New User?Register</string>
+    <string name="food_drop">FOOD DROP</string>
+    <string name="name">Name(Min 3 characters)</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="vidya_v">Vidya v</string>
+    <string name="_91_6362621650">+91 6362621650</string>
+    <string name="favourite_restaurants">Favourite Restaurants</string>
+    <string name="_1">1</string>
+    <string name="food_name">Food Name</string>
+    <string name="rs_100">Rs.100</string>
+    <string name="add">Add</string>
+    <string name="name_of_the_restaurant">Name of the Restaurant</string>
+    <string name="_4_5">4.5</string>
+    <string name="todo">TODO</string>
+    <string name="you_have_not_added_any_favourites">You have not added any favourites</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="remove">Remove</string>
+    <string name="filters">
+        <array name="filters">
+        <item>Cost(Low to High)</item>
+        <item>Cost(High to Low)</item>
+        <item>Rating</item>
+    </array>
+    </string>
+    <string name="new_password">New Password(Min 4 characters)</string>
+    <string name="otp_4_characters">OTP(4 characters)</string>
+    <string name="submit">Submit</string>
+    <string name="ordering_from">Ordering From :</string>
+    <string name="restaurant_name">Restaurant Name</string>
+    <string name="place_order">Place Order</string>
+    <string name="proceed_to_cart">Proceed to Cart</string>
+    <string name="enter_the_received_otp_below">Enter the received OTP below</string>
+    <string name="q1_how_will_the_training_be_delivered">Q1. How will the training be delivered</string>
+    <string name="a1_you_will_be_taught_using_pre_recorded_videos_and_text_tutorials_the_training_has_quizzes_assighnment_and_tests_to_help_you_learn_better">A1. You will be taught using pre-recorded videos and text tutorials. The training has quizzes,assighnment, and tests to help you learn better</string>
+    <string name="you_have_nt_placed_any_orders_yet">You have\'nt placed any orders yet</string>
+    <string name="your_previous_orders_are_listed_below">Your previous orders are listed below:</string>
+    <string name="you_have_not_ordered_anything_yet">You have not ordered anything yet</string>
+    <string name="your_order_has_been_placed_successfully">Your order has been placed successfully</string>
+    <string name="ok">OK</string>
+    <string name="rs_299">Rs.299</string>
+    <string name="baco_indian">Baco Indian</string>
+    <string name="_300_person">300/person</string>
+    <string name="_10_01_2000">10/01/2000</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/llContext"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:weightSum="6"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+            <TextView
+                android:id="@+id/txtNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_1"
+                android:padding="5dp"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/txtFoodName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_name"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtFoodPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rs_100"
+                android:textSize="16sp"
+                android:layout_below="@id/txtFoodName"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1.5"
+            android:background="@color/colorPrimary"
+            android:text="@string/add"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_vertical"
+            android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/btnRemove"
+        android:layout_width="0dp"
+        android:visibility="gone"
+        android:layout_height="40dp"
+        android:layout_weight="1.5"
+        android:background="#bbdefb"
+        android:text="@string/remove"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>

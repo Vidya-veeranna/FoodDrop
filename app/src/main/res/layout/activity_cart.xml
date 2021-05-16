@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CartActivity">
+
+   <RelativeLayout
+       android:id="@+id/rlCart"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <androidx.appcompat.widget.Toolbar
+           android:layout_width="match_parent"
+           android:layout_height="?attr/actionBarSize"
+           android:id="@+id/toolbar"
+           android:minHeight="?attr/actionBarSize"
+           android:background="@color/colorPrimary"
+           android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+       <LinearLayout
+           android:id="@+id/txtOrderFrom"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginTop="60dp">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/ordering_from"
+               android:textColor="#000000"
+               android:textSize="18sp"
+               android:textStyle="bold"
+               android:padding="8dp"/>
+           <TextView
+               android:id="@+id/txtResName"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/restaurant_name"
+               android:textColor="#000000"
+               android:textSize="18sp"
+               android:textStyle="bold"
+               android:padding="8dp"/>
+
+       </LinearLayout>
+       <TableRow
+           android:id="@+id/trLine"
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="@color/colorPrimary"
+           android:layout_below="@id/txtOrderFrom"/>
+
+       <androidx.recyclerview.widget.RecyclerView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/recyclerFood"
+           android:layout_below="@id/trLine"
+           android:padding="10dp"
+           android:layout_margin="5dp"/>
+
+       <Button
+           android:id="@+id/btnPlaceOrder"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:background="@color/colorPrimary"
+           android:text="@string/place_order"
+           android:textColor="#ffffff"
+           android:textStyle="bold"
+           android:textSize="16sp"/>
+
+   </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:id="@+id/progressLayout">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>
